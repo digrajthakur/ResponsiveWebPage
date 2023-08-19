@@ -1,0 +1,81 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/abstract-circular-blinds-oscillation-background-3d-rings-wavy-surface-geometric-elements-displacement_1217-2518.jpg");
+    background-size: cover;
+}
+
+.heading {
+    color: aliceblue;
+    text-align: center;
+}
+
+.img-1 {
+    width: 300px;
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 38%;
+}
+
+.paragraph {
+    color: aliceblue;
+    margin-top: 6%;
+    margin-left: 1%;
+}
+
+.site {
+    display: flex;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 35%;
+    gap: 10%;
+} */
+
+
+/* Default styles */
+
+* {
+    background-color: black;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.img-1 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.paragraph {
+    text-align: justify;
+    margin: 20px;
+}
+
+.site {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.site h2 {
+    font-size: 18px;
+}
+
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .site {
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-1 {
+        margin-top: 20px;
+    }
+}

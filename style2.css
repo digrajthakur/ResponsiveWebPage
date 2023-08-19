@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://cdn.wallpapersafari.com/68/35/TQ9lGE.jpg");
+    background-size: cover;
+}
+
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
